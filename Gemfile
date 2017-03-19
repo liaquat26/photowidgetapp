@@ -7,9 +7,11 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 # Use Stripe for payment processing
 gem 'stripe', '1.48.0'
-
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use Figaro for ENV variables
-gem 'figaro', '1.1.1'
+#gem 'figaro', '1.1.1'
 
 
 # Use Puma as the app server

@@ -1,7 +1,6 @@
 .features {
   ul {
   margin-left: 0;
-  padding-left: 15px;
   }
 }
 
@@ -10,7 +9,7 @@
   text-align: center;
   background-image: asset-url('bramanbaria-view.png');
   background-size: cover;
-  height: 260px;
+  height: 360px;
   color: #fff;
   font-family: 'Arial' !important;
   font-stretch: expanded;
@@ -22,7 +21,7 @@
   
   
   h1 {
-  margin-top: 80px;
+  margin-top: 60px;
   .jumbotron-text {
   font-family: 'Helvetica Neue' !important;
   font-size: 50px !important;
@@ -74,39 +73,34 @@ color: #000 !important;
 
 .logout {
 
-padding-left: 0;
+padding-left: 10;
 
+}
+.navbar-brand a {
+  position: relative;
+  margin-top: 15px;
 }
 
 .nav.navbar-right {
 
-padding-bottom: 10px;
-
-padding-top: 5px;
+padding-bottom: 20px;
+margin-top: -20px;
+padding-top: 35px;
 
 }
-
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: #888;
-  &:hover {
-    color: #777;
-    opacity: 0.75;
-  }
-}
-
 
 .nav.navbar-nav {
-
+  
+  padding-top: 15px;
 .navbar-link {
 
 border-radius: 5px;
 
 color: #fff;
 
-margin-top: 15px;
+margin-top: 5px;
 
-padding: 8px;
+padding: 2px;
 
 }
 
@@ -153,16 +147,5 @@ background-color: darken(#428bca,20%) !important;
 .btn-primary:visited, .btn-danger:visited {
 
 color: #fff;
-
-}
-.features {
-
-ul {
-
-margin-left: 0;
-
-padding-left: 15px;
-
-}
 
 }
